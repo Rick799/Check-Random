@@ -4,11 +4,11 @@ function PracticeOne() {
   const [count, setCount] = useState(0);
 
   const increment = () => {
-    setCount(count + 10);
+    setCount(count + 20);
   };
 
   const decrement = () => {
-    setCount(count - 10);
+    setCount(count - 20);
   };
 
   return (
