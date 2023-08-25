@@ -1,14 +1,14 @@
-import { useState } from 'react';
+import { useState } from "react";
 
 function PracticeOne() {
   const [count, setCount] = useState(0);
 
   const increment = () => {
-    setCount(count + 1);
+    setCount(count + 10);
   };
 
   const decrement = () => {
-    setCount(count - 1);
+    setCount(count - 10);
   };
 
   return (
